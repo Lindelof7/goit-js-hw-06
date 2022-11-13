@@ -1,5 +1,4 @@
-const categoriesList = document.querySelector('#categories');
-const item = document.querySelectorAll('.item');
+const categoriesRef = document.querySelector('#categories');
 
-console.log(item)
+console.log(categoriesRef.children.length);
 

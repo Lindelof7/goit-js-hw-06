@@ -1,5 +1,5 @@
 const categoriesList = document.querySelector('#categories');
-const item = document.querySelector('.item');
+const item = document.querySelectorAll('.item');
 
 console.log(item)
 

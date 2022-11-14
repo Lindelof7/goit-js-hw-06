@@ -13,10 +13,10 @@ function handleSubmit(event) {
         return console.log("Заповніть усі поля");
     }
     const Data = {
-    email,
-    password,
+    email : email.value,
+    password : password.value,
     }
     console.log(Data)
-formEl.reset
+    formEl.reset();
 }
 
